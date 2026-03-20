@@ -1,21 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    void Printer();
-
+    void Print();
+    int square();
     int num = 5;
-    int result;
-    int Square();
-    result = Square(num);
+    int result = square(num);
     printf("%d %d\n", num, result);
 
     return 0;
 }
 
-void Printer() {
+void Print() {
 printf("Welcome to Computer Programming 03 Lab!\n");
 }
 
-int Square(int n) {
+int square(int n) {
 return n * n;
 }
