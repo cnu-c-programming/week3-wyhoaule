@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int Square(int num);
-
 int main() {
     void Printer();
 
     int num = 5;
-    int result = Square(num);
+    int result;
+    int Square();
+    result = Square(num);
     printf("%d %d\n", num, result);
 
     return 0;
